@@ -20,7 +20,7 @@ describe('Unit test Read input',()=>{
 
   it('should read from the input file',()=>{
     expect.assertions(1);
-    expect(readInput(filePath)).resolves.toEqual(content);
+    expect(readInput(filePath)).resolves.toBe(content);
   })
 
 })
